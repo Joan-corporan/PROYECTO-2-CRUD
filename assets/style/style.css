@@ -145,6 +145,7 @@ section article #list-01 ul {
     display: flex;
     justify-content: space-around;
 }
+
 body main section article #list-01 {
     overflow: scroll;
     z-index: 100;
@@ -154,8 +155,9 @@ section article #list-01 ul li {
     list-style: none;
     padding: 10px 12px;
 }
+
 section article #list-01 p {
-    padding: 0 25px;
+    padding: 0 10px;
 }
 
 section article #list-01 hr {
@@ -169,15 +171,33 @@ body main section article #list-01 .div-h4 {
     justify-content: space-around;
 
 }
-body main section article #list-01 .div-h4 .btn-edit{
+
+body main section article #list-01 .div-h4 .btn-edit {
     padding: 3px;
+    border-style: solid;
     border-radius: 5px;
+    border-color: black;
     background-color: rgb(85, 249, 85);
+    cursor: pointer;
 }
+
 body main section article #list-01 .div-h4 .btn-elim {
     padding: 3px;
+    border-style: solid;
     border-radius: 5px;
+    border-color: black;
     background-color: rgba(245, 81, 81, 0.975);
+    cursor: pointer;
+}
+
+body main section article #list-01 .div-h4 .btn-elim:hover,
+.btn-edit:hover {
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.519);
+
+}
+
+section article #list-01 .div-h4 p {
+    width: 80px;
 }
 
 

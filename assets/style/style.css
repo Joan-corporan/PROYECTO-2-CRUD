@@ -133,6 +133,7 @@ body article #list-01 {
 }
 
 body main #list-01 {
+    padding: 0 20px;
     background-color: white;
     border-style: solid;
     border-color: rgba(255, 145, 0, 0.821);
@@ -146,10 +147,7 @@ section article #list-01 ul {
     justify-content: space-around;
 }
 
-body main section article #list-01 {
-    overflow: scroll;
-    z-index: 100;
-}
+
 
 section article #list-01 ul li {
     list-style: none;
@@ -157,6 +155,7 @@ section article #list-01 ul li {
 }
 
 section article #list-01 p {
+    
     padding: 0 10px;
 }
 
@@ -165,14 +164,15 @@ section article #list-01 hr {
     margin: 5px 0;
 }
 
-body main section article #list-01 .div-h4 {
+body main section article #list-01 #box-b4 {
     padding: 10px 12px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
-body main section article #list-01 .div-h4 .btn-edit {
+body main section article #list-01 #box-b4 .btn-edit {
+    font-size: 60%;
     padding: 3px;
     border-style: solid;
     border-radius: 5px;
@@ -181,7 +181,8 @@ body main section article #list-01 .div-h4 .btn-edit {
     cursor: pointer;
 }
 
-body main section article #list-01 .div-h4 .btn-elim {
+body main section article #list-01 #box-b4 .btn-elim {
+    font-size: 80%;
     padding: 3px;
     border-style: solid;
     border-radius: 5px;
@@ -190,15 +191,25 @@ body main section article #list-01 .div-h4 .btn-elim {
     cursor: pointer;
 }
 
-body main section article #list-01 .div-h4 .btn-elim:hover,
+body main section article #list-01 #box-b4 .btn-elim:hover,
 .btn-edit:hover {
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.519);
 
 }
 
-section article #list-01 .div-h4 p {
-    width: 80px;
+section article #list-01 #box-b4 p {
+    font-size: 80%;
+    width: 50px;
 }
+body main section article #list-01 {
+
+    overflow: scroll;
+   /*  z-index: 100; */
+}
+
+
+
+
 
 
 @media (max-width:980px) {
@@ -243,7 +254,7 @@ section article #list-01 .div-h4 p {
 
 }
 
-@media (max-width:520px) {
+@media (max-width:640px) {
     header span {
         font-size: 20px;
     }
@@ -263,6 +274,37 @@ section article #list-01 .div-h4 p {
     body .container-f form button {
         width: 30%;
 
+    }
+    body main section article #list-01 {
+        width: 90%;
+        /* padding:0 40px; */
+    }
+    body main section article #list-01 #box-b4 p {
+        font-size: 80%;
+    }
+    section article #list-01 ul li h4 {
+        font-size: 80%;
+    }
+    body main section article #list-01 #box-b4 .btn-elim{
+        font-size: 80%;
+    }
+    body main section article #list-01 #box-b4 .btn-edit{
+        font-size: 80%;
+    }
+
+}
+@media (max-width:640px) {
+    body main section article #list-01 #box-b4 p {
+        font-size: 60%;
+    }
+    section article #list-01 ul li h4 {
+        font-size: 60%;
+    }
+    body main section article #list-01 #box-b4 .btn-elim{
+        font-size: 60%;
+    }
+    body main section article #list-01 #box-b4 .btn-edit{
+        font-size: 60%;
     }
 
 }

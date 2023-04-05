@@ -54,6 +54,13 @@ function guardardatosLS() {
 
     localStorage.setItem("tareas", JSON.stringify(tareas))
 }
+function leerformLS() {
+    const tareas = JSON.parse(localStorage.getItem('tareas'))
+    tareas.forEach((el) => createCard(el))
+
+
+}
+leerformLS()
 
 
 

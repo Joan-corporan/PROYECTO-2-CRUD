@@ -22,3 +22,8 @@ function leerFormulario() {
     tareas.push(tarea)
     return (tarea)
 }
+
+function create(event) {
+
+    event.preventDefault()
+}

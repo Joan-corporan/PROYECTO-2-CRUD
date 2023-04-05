@@ -19,5 +19,6 @@ function leerFormulario() {
         rut: rutinput.value,
         cargo: cargoinput.value
     }
+    tareas.push(tarea)
     return (tarea)
 }

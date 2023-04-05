@@ -8,6 +8,11 @@ function create(event) {
 
     event.preventDefault()
     const tarea = leerFormulario()
+    createCard(tarea)
+
+    limpiarForm()
+
+    guardardatosLS()
     
 }
 

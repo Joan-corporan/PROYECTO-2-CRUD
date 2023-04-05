@@ -4,6 +4,13 @@
 const btnRest = document.getElementById("submit")
 btnRest.addEventListener("click", create)
 
+function create(event) {
+
+    event.preventDefault()
+    const tarea = leerFormulario()
+    
+}
+
 const tareas = []
 
 function leerFormulario() {
@@ -22,9 +29,21 @@ function leerFormulario() {
     tareas.push(tarea)
     return (tarea)
 }
+function createCard(tarea) {
+    const cardlist = document.getElementById("list-01")
+    cardlist.innerHTML += `
+                        
 
-function create(event) {
-
-    event.preventDefault()
-    const tarea = leerFormulario()
+                    <div id="box-b4">
+                            <p> ${tarea.nombre}</p>
+                            <p>${tarea.apellido}</p>
+                            <p>${tarea.rut}</p>
+                            <p>${tarea.cargo}</p> 
+                        <div>
+                            <button class="btn-edit">Editar</button><button class="btn-elim">Eliminar</button>
+                        </div>
+                    </div>
+                    <hr>`
 }
+
+

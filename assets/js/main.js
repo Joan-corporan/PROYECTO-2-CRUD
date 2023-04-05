@@ -50,5 +50,10 @@ function limpiarForm() {
     formconst.reset()
 
 }
+function guardardatosLS() {
+
+    localStorage.setItem("tareas", JSON.stringify(tareas))
+}
+
 
 

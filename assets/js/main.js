@@ -7,11 +7,17 @@ btnRest.addEventListener("click", create)
 const tareas = []
 
 function leerFormulario() {
-    
+
     const nameinput = document.getElementById("nombre")
     const lastnameinput = document.getElementById("apellido")
     const rutinput = document.getElementById("rut")
     const cargoinput = document.getElementById("cargo")
 
+    const tarea = {
+        nombre: nameinput.value,
+        apellido: lastnameinput.value,
+        rut: rutinput.value,
+        cargo: cargoinput.value
+    }
 
 }

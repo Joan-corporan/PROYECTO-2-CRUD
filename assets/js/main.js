@@ -26,4 +26,5 @@ function leerFormulario() {
 function create(event) {
 
     event.preventDefault()
+    const tarea = leerFormulario()
 }

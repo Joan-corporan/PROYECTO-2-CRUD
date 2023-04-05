@@ -45,5 +45,10 @@ function createCard(tarea) {
                     </div>
                     <hr>`
 }
+function limpiarForm() {
+    const formconst = document.getElementById("boxSF")
+    formconst.reset()
+
+}
 
 

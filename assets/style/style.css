@@ -155,7 +155,7 @@ section article #list-01 ul li {
 }
 
 section article #list-01 p {
-    
+
     padding: 0 10px;
 }
 
@@ -201,11 +201,14 @@ section article #list-01 #box-b4 p {
     font-size: 80%;
     width: 50px;
 }
+
 body main section article #list-01 {
 
     overflow: scroll;
-   /*  z-index: 100; */
+    /*  z-index: 100; */
+    margin-bottom: 100px;
 }
+
 
 
 
@@ -275,35 +278,44 @@ body main section article #list-01 {
         width: 30%;
 
     }
+
     body main section article #list-01 {
         width: 90%;
         /* padding:0 40px; */
     }
+
     body main section article #list-01 #box-b4 p {
         font-size: 80%;
     }
+
     section article #list-01 ul li h4 {
         font-size: 80%;
     }
-    body main section article #list-01 #box-b4 .btn-elim{
+
+    body main section article #list-01 #box-b4 .btn-elim {
         font-size: 80%;
     }
-    body main section article #list-01 #box-b4 .btn-edit{
+
+    body main section article #list-01 #box-b4 .btn-edit {
         font-size: 80%;
     }
 
 }
+
 @media (max-width:640px) {
     body main section article #list-01 #box-b4 p {
         font-size: 60%;
     }
+
     section article #list-01 ul li h4 {
         font-size: 60%;
     }
-    body main section article #list-01 #box-b4 .btn-elim{
+
+    body main section article #list-01 #box-b4 .btn-elim {
         font-size: 60%;
     }
-    body main section article #list-01 #box-b4 .btn-edit{
+
+    body main section article #list-01 #box-b4 .btn-edit {
         font-size: 60%;
     }
 

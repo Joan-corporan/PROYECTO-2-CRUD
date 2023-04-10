@@ -45,7 +45,7 @@ function createCard(tarea) {
                             <p>${tarea.rut}</p>
                             <p>${tarea.cargo}</p> 
                         <div>
-                            <button class="btn-edit">Editar</button><button class="btn-elim">Eliminar</button>
+                            <button onclick="editarForm()" class="btn-edit">Editar</button><button class="btn-elim">Eliminar</button>
                         </div>
                     </div>
                     <hr>`
@@ -66,6 +66,17 @@ function leerformLS() {
 
 }
 leerformLS()
+
+function editarForm(){
+    modal.removeAttribute('style')
+
+}
+
+function showmodal(){
+
+}
+const modal = document.getElementById('modal')
+
 
 
 

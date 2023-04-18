@@ -289,6 +289,9 @@ body footer .d-fpd p {
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.332);
 
 }
+.oculto{
+    display: none;
+}
 
 
 

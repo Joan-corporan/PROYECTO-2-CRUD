@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,6 @@
     <link rel="stylesheet" href="./assets/style/style.css">
     <title>CRUD</title>
 </head>
-
 <body>
     <header>
         <span><img src="./assets/image/images.jpeg" alt="">Regístro de empleados</span>
@@ -33,6 +31,8 @@
                     <input type="text" name="rut" id="rut" placeholder="Rut:">
                     <input type="text" name="cargo" id="cargo" placeholder="Cargo:">
                     <button type="submit" id="submit">Agregar</button>
+                    <button class="oculto" type="submit" id="edit">Actualizar</button>
+                    
                 </form>
             </div>
         </section>
@@ -60,19 +60,22 @@
                         </li>
                     </ul>
                     <hr>
-                </div>
+                    <div id="list-container">
+
+                    </div>
                 </div>
             </article>
         </section>
     </main>
-    <div id="modal" style="display: none;">
+    <!-- <div id="modal" style="display: none;">
         <div><h2>Editar Informacion</h2></div>
         <form >
             <input placeholder="Nombre:" name="nombree"  id="inp-01" type="text">
             <input  placeholder="Apellido:" name="apellidoe" id="inp-02" type="text">
             <input placeholder="Cargo:" name="cargoe"  id="inp-03" type="text">
+            <button type="submit" class="actulizar" id="nuevo" >actualizar</button>
         </form>
-    </div>
+    </div> -->
     <footer>
         <div>
             <ul class="ul-foot-01">
@@ -106,5 +109,4 @@
     </footer>
     <script src="./assets/js/main.js"></script>
 </body>
-
 </html>

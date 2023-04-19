@@ -1,11 +1,11 @@
 # Aplicación CRUD - PROYECTO 2 
 
 ## ÍNDICE
-    - 1. Introducción
-    - 2. Mockup
-    - 3. Teclogías usadas
-    - 4. Sitio web
-    - 5. Agradecimientos
+- 1. Introducción
+- 2. Mockup
+- 3. Teclogías usadas
+- 4. Sitio web
+- 5. Agradecimientos
 
 ## Introducción
 
